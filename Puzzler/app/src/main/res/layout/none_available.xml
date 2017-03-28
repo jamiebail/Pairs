@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="1"
+    android:background="@layout/weatherrepeat"
+    >
+
+
+    <Button
+        android:text="@string/mygames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mygamesbutton"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_marginBottom="39dp"
+        android:textColorLink="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="You have all available puzzles!"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:id="@+id/timertextview"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/mygamesbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/allpuzzles"
+        android:id="@+id/imageView13"
+        android:layout_above="@+id/timertextview"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

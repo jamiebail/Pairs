@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@layout/mainback"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:src="@drawable/logo"
+    android:layout_weight="0.77" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.63"
+        android:weightSum="3"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:id="@+id/alphabutton"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/textView"
+            android:layout_weight="1"
+            android:src="@drawable/alphabet"
+            android:textColorLink="?android:attr/colorPressedHighlight"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/picturebutton"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/textView"
+            android:layout_weight="1"
+
+            android:src="@drawable/picture"
+
+            android:textColorLink="?android:attr/colorPressedHighlight"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/sizebutton"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/textView"
+            android:layout_weight="1"
+            android:src="@drawable/grid"
+
+            android:textColorLink="?android:attr/colorPressedHighlight" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/puzzleListFrame"
+        android:foreground="#80ffffff"
+        android:color="#20000000"
+        android:layout_weight="7.46">
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/downloadbutton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/getmorepuzzles"
+        android:textColorLink="@color/colorPrimaryDark" />
+</LinearLayout>

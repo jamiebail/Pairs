@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Puzzler</string>
+    <string name="base_url">"http://www.hull.ac.uk/php/349628/08027/acw/"</string>
+    <string name="picturesetURLAppend">"picturesets/"</string>
+    <string name="pictureURLAppend">"images/"</string>
+    <string name="FileOutputType">".txt"</string>
+    <string name="title_activity_download">DownloadActivity</string>
+
+    <string name="initialpuzzletext">Touch a card to start</string>
+    <string name="noconnection">No connection to game server</string>
+    <string name="mygames">My Games</string>
+    <string name="pregamestarttext">Remember!</string>
+    <string name="postgamestarttext">GO!</string>
+    <string name="firsttileselected">Select another!</string>
+    <string name="match">Great match!</string>
+    <string name="failedmatch">Try again</string>
+    <string name="sametileclicked">Tile deselected</string>
+    <string name="getmorepuzzles">Get More!</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="bronze">Bronze</string>
+    <string name="puzzlecomplete">Puzzle Complete!</string>
+    <string name="newhighscore">New Highscore!</string>
+</resources>

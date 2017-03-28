@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puzzlerino</string>
+    <string name="initialpuzzletext">Touch a card to start</string>
+    <string name="noconnection">No connection to game server</string>
+    <string name="mygames">My Games</string>
+    <string name="pregamestarttext">Remember!</string>
+    <string name="postgamestarttext">GO!</string>
+    <string name="firsttileselected">Select another!</string>
+    <string name="match">Great match!</string>
+    <string name="failedmatch">Try again</string>
+    <string name="sametileclicked">Select Two!</string>
+    <string name="getmorepuzzles">Get More!</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="bronze">Bronze</string>
+    <string name="puzzlecomplete">Puzzle Complete!</string>
+</resources>

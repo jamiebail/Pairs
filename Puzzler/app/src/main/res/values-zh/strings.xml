@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">拼图</string>
+    <string name="bronze">青铜</string>
+    <string name="gold">金</string>
+    <string name="failedmatch">再试一次</string>
+    <string name="getmorepuzzles">得到更多</string>
+    <string name="initialpuzzletext">触摸即可开始</string>
+    <string name="mygames">我的游戏</string>
+    <string name="match">大匹配!</string>
+    <string name="noconnection">新高分！</string>
+    <string name="postgamestarttext">走！</string>
+    <string name="pregamestarttext">记得！</string>
+    <string name="puzzlecomplete">拼图完成！</string>
+    <string name="sametileclicked">选择两个！</string>
+    <string name="silver">银</string>
+    <string name="firsttileselected">选择其他！</string>
+    <string name="newhighscore">新高分！</string>
+</resources>

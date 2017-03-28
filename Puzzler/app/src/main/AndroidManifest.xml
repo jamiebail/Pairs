@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jamie.puzzler">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cardset1"
+        android:label="@string/app_name"
+
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        >
+        android:supportsRtl="true">
+        >
+        <activity android:name=".Activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activities.PuzzlesActivity">
+
+        </activity>
+
+        <activity
+            android:name=".Activities.DownloadActivity"
+            android:label="@string/title_activity_download"
+            ></activity>
+    </application>
+
+</manifest>
